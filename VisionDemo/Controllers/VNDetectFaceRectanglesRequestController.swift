@@ -9,7 +9,7 @@ import UIKit
 import Vision
 
 class VNDetectFaceRectanglesRequestController: UIViewController {
-    @IBOutlet private var imageView: UIImageView!
+    @IBOutlet private weak var imageView: UIImageView!
     
     private var cgImage: CGImage? {
         if Thread.isMainThread == true {

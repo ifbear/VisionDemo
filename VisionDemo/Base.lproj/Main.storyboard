@@ -121,6 +121,50 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection id="TpF-0u-Aa0">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PDFKitViewController" textLabel="Qkb-kv-3Bc" style="IBUITableViewCellStyleDefault" id="9Gt-aT-adL">
+                                        <rect key="frame" x="20" y="314" width="353" height="52"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Gt-aT-adL" id="ifm-Cp-crP">
+                                            <rect key="frame" x="0.0" y="0.0" width="322.66666666666669" height="52"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="VNRecognizeTextRequestController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qkb-kv-3Bc">
+                                                    <rect key="frame" x="20" y="0.0" width="294.66666666666669" height="52"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zfW-Ns-jBg" kind="show" id="8TQ-Rz-z3n"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="OfficeViewController" textLabel="WUq-7Q-At2" style="IBUITableViewCellStyleDefault" id="2IE-2x-FCE">
+                                        <rect key="frame" x="20" y="366" width="353" height="52"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2IE-2x-FCE" id="ZbL-95-A9v">
+                                            <rect key="frame" x="0.0" y="0.0" width="322.66666666666669" height="52"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="VNRecognizeTextRequestController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WUq-7Q-At2">
+                                                    <rect key="frame" x="20" y="0.0" width="294.66666666666669" height="52"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="2ba-Ul-GNe" kind="show" id="YeE-tR-uDH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="wpT-UL-HYT" id="10K-CP-NA0"/>
@@ -136,7 +180,7 @@
         <!--人脸区-->
         <scene sceneID="Kl0-Iy-Mnb">
             <objects>
-                <viewController id="2tN-eu-A1N" customClass="VNDetectFaceRectanglesRequestController" customModule="OCR_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2tN-eu-A1N" customClass="VNDetectFaceRectanglesRequestController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gFY-m8-Agf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,7 +210,7 @@
         <!--面部特征-->
         <scene sceneID="y4p-96-qZP">
             <objects>
-                <viewController id="QE6-fe-0Jj" customClass="VNDetectFaceLandmarksRequestController" customModule="OCR_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QE6-fe-0Jj" customClass="VNDetectFaceLandmarksRequestController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FcF-9g-aQa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -196,7 +240,7 @@
         <!--图形轮廓-->
         <scene sceneID="cAP-GT-Dri">
             <objects>
-                <viewController id="VGB-XV-Ib1" customClass="VNDetectContoursRequestController" customModule="OCR_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VGB-XV-Ib1" customClass="VNDetectContoursRequestController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fHE-yP-CyX">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,7 +270,7 @@
         <!--文字识别-->
         <scene sceneID="ow5-ix-fdZ">
             <objects>
-                <viewController id="1wy-cn-ZAt" customClass="VNRecognizeTextRequestController" customModule="OCR_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1wy-cn-ZAt" customClass="VNRecognizeTextRequestController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D8j-GB-vFM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -260,7 +304,7 @@
         <!--图片分类-->
         <scene sceneID="whr-CR-VNU">
             <objects>
-                <viewController id="yWX-2B-eWd" customClass="VNClassifyImageRequestController" customModule="OCR_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="yWX-2B-eWd" customClass="VNClassifyImageRequestController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hmS-ww-brt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -306,6 +350,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UkG-gd-z9C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1398" y="-388"/>
+        </scene>
+        <!--Office View Controller-->
+        <scene sceneID="UhF-bF-2cx">
+            <objects>
+                <viewController id="2ba-Ul-GNe" customClass="OfficeViewController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aIA-Cx-s0c">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q2o-r1-58V"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dmv-UG-vid"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vc-GZ-Hp1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2033" y="-1031"/>
+        </scene>
+        <!--PDFKit-->
+        <scene sceneID="nwt-R6-Bcv">
+            <objects>
+                <viewController id="zfW-Ns-jBg" customClass="PDFKitViewController" customModule="VisionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3ih-ur-ITq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UYZ-kt-V85"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PDFKit" id="Y7H-On-v43"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bym-ec-D33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-607" y="-1125"/>
         </scene>
     </scenes>
     <resources>

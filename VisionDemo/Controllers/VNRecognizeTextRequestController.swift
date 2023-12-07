@@ -9,7 +9,7 @@ import UIKit
 import Vision
 
 class VNRecognizeTextRequestController: UIViewController {
-    @IBOutlet private var textView: UITextView!
+    @IBOutlet private weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

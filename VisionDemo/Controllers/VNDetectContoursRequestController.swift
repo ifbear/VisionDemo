@@ -10,7 +10,7 @@ import Vision
 
 class VNDetectContoursRequestController: UIViewController {
 
-    @IBOutlet private var imageView: UIImageView!
+    @IBOutlet private weak var imageView: UIImageView!
     
     /// cgImage
     private var cgImage: CGImage? {

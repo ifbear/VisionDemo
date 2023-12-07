@@ -10,7 +10,7 @@ import Vision
 
 class VNDetectFaceLandmarksRequestController: UIViewController {
     
-   @IBOutlet private var imageView: UIImageView!
+   @IBOutlet private weak var imageView: UIImageView!
     
     private var cgImage: CGImage? {
         if Thread.isMainThread == true {

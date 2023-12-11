@@ -27,7 +27,7 @@ class PDFKitViewController: UIViewController {
         pdfView.document = document
 //        print(pdfView.currentPage?.string)
 //        print(document?.string)
-        
+        print(document?.page(at: 0)?.string)
         if let attributes = document?.documentAttributes, let title = attributes[kCGPDFOutlineTitle as String] as? String {
             print(title)
         }

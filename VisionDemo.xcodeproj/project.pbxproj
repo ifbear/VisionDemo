@@ -16,10 +16,10 @@
 		A08F44302B216CD500953D98 /* VNDetectContoursRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F442F2B216CD500953D98 /* VNDetectContoursRequestController.swift */; };
 		A08F44342B21B2C700953D98 /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F44332B21B2C700953D98 /* PDFKitViewController.swift */; };
 		A08F44362B21B34500953D98 /* pyPDFeditor.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A08F44352B21B34500953D98 /* pyPDFeditor.pdf */; };
-		A08F44382B21BCF700953D98 /* 2023_PDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A08F44372B21BCF700953D98 /* 2023_PDF.pdf */; };
-		A08F443B2B21C10F00953D98 /* OfficeFileReader in Frameworks */ = {isa = PBXBuildFile; productRef = A08F443A2B21C10F00953D98 /* OfficeFileReader */; };
 		A08F443D2B21C13600953D98 /* OfficeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08F443C2B21C13600953D98 /* OfficeViewController.swift */; };
 		A08F443F2B21C1D100953D98 /* 本文档由中文文档库提供.doc in Resources */ = {isa = PBXBuildFile; fileRef = A08F443E2B21C1D100953D98 /* 本文档由中文文档库提供.doc */; };
+		A09075192B22F135003B9ACC /* list-constellations-677j.xls in Resources */ = {isa = PBXBuildFile; fileRef = A09075172B22F135003B9ACC /* list-constellations-677j.xls */; };
+		A090751A2B22F135003B9ACC /* list-constellations-677j.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = A09075182B22F135003B9ACC /* list-constellations-677j.xlsx */; };
 		A0F6F1B92B1F0A4900369D76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6F1B82B1F0A4900369D76 /* AppDelegate.swift */; };
 		A0F6F1BB2B1F0A4900369D76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F6F1BA2B1F0A4900369D76 /* SceneDelegate.swift */; };
 		A0F6F1C02B1F0A4900369D76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F6F1BE2B1F0A4900369D76 /* Main.storyboard */; };
@@ -52,9 +52,10 @@
 		A08F442F2B216CD500953D98 /* VNDetectContoursRequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNDetectContoursRequestController.swift; sourceTree = "<group>"; };
 		A08F44332B21B2C700953D98 /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
 		A08F44352B21B34500953D98 /* pyPDFeditor.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pyPDFeditor.pdf; sourceTree = "<group>"; };
-		A08F44372B21BCF700953D98 /* 2023_PDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2023_PDF.pdf; sourceTree = "<group>"; };
 		A08F443C2B21C13600953D98 /* OfficeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeViewController.swift; sourceTree = "<group>"; };
 		A08F443E2B21C1D100953D98 /* 本文档由中文文档库提供.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "本文档由中文文档库提供.doc"; sourceTree = "<group>"; };
+		A09075172B22F135003B9ACC /* list-constellations-677j.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "list-constellations-677j.xls"; sourceTree = "<group>"; };
+		A09075182B22F135003B9ACC /* list-constellations-677j.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "list-constellations-677j.xlsx"; sourceTree = "<group>"; };
 		A0F6F1B52B1F0A4900369D76 /* VisionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F6F1B82B1F0A4900369D76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F6F1BA2B1F0A4900369D76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A08F443B2B21C10F00953D98 /* OfficeFileReader in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +94,9 @@
 		A08F44252B21679C00953D98 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A09075172B22F135003B9ACC /* list-constellations-677j.xls */,
+				A09075182B22F135003B9ACC /* list-constellations-677j.xlsx */,
 				A08F443E2B21C1D100953D98 /* 本文档由中文文档库提供.doc */,
-				A08F44372B21BCF700953D98 /* 2023_PDF.pdf */,
 				A08F44352B21B34500953D98 /* pyPDFeditor.pdf */,
 				A08F44232B21627B00953D98 /* comics.png */,
 				A08F441D2B205E3600953D98 /* face.jpg */,
@@ -187,9 +188,6 @@
 			dependencies = (
 			);
 			name = VisionDemo;
-			packageProductDependencies = (
-				A08F443A2B21C10F00953D98 /* OfficeFileReader */,
-			);
 			productName = VisionDemo;
 			productReference = A0F6F1B52B1F0A4900369D76 /* VisionDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -206,6 +204,7 @@
 				TargetAttributes = {
 					A0F6F1B42B1F0A4900369D76 = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
@@ -218,9 +217,6 @@
 				Base,
 			);
 			mainGroup = A0F6F1AC2B1F0A4900369D76;
-			packageReferences = (
-				A08F44392B21C10F00953D98 /* XCRemoteSwiftPackageReference "OfficeFileReader" */,
-			);
 			productRefGroup = A0F6F1B62B1F0A4900369D76 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,13 +231,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A090751A2B22F135003B9ACC /* list-constellations-677j.xlsx in Resources */,
 				A08F443F2B21C1D100953D98 /* 本文档由中文文档库提供.doc in Resources */,
+				A09075192B22F135003B9ACC /* list-constellations-677j.xls in Resources */,
 				A0F6F2012B1F24E400369D76 /* cat.png in Resources */,
 				A0F6F1E02B1F0E8300369D76 /* 4.png in Resources */,
 				A0F6F1DB2B1F0E8300369D76 /* 2.png in Resources */,
 				A0F6F1E12B1F0E8300369D76 /* 10.png in Resources */,
 				A0F6F1DA2B1F0E8300369D76 /* 12.png in Resources */,
-				A08F44382B21BCF700953D98 /* 2023_PDF.pdf in Resources */,
 				A08F44362B21B34500953D98 /* pyPDFeditor.pdf in Resources */,
 				A0F6F1C52B1F0A4A00369D76 /* LaunchScreen.storyboard in Resources */,
 				A0F6F1E22B1F0E8300369D76 /* 1.png in Resources */,
@@ -426,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZKKYQHSX4D;
@@ -443,10 +441,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dx.VisionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZKKYQHSX4D;
@@ -474,10 +475,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-lc++";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dx.VisionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -505,25 +507,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		A08F44392B21C10F00953D98 /* XCRemoteSwiftPackageReference "OfficeFileReader" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hughbe/OfficeFileReader.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A08F443A2B21C10F00953D98 /* OfficeFileReader */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A08F44392B21C10F00953D98 /* XCRemoteSwiftPackageReference "OfficeFileReader" */;
-			productName = OfficeFileReader;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0F6F1AD2B1F0A4900369D76 /* Project object */;
 }
